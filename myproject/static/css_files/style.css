@@ -560,10 +560,10 @@
     flex-direction: column;
   }
   
-  .collection-card .card-title { margin-block-end: 12px; }
+  .collection-card .card-title { margin-block-end: 12px; color: var(--white);}
   
   .collection-card .card-text {
-    color: var(--black);
+    color: var(--white);
     font-size: var(--fs-6);
     font-weight: var(--fw-600);
     margin-block-end: auto;
