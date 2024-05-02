@@ -399,7 +399,7 @@
                     style="--width: 540; --height: 720"
                   >
                     <img
-                      src="./media/{{i.product_image}}"
+                      src="{{i.product_image}}"
                       width="540"
                       height="720"
                       loading="lazy"
@@ -439,7 +439,7 @@
                     <div class="price">
                       <del class="del">{{i.product_price}}</del>
 
-                      <span class="span">{{i.product_price}}</span>
+                      <span class="span">{{i.product_price}} + {{i.product_discount}}</span>
                     </div>
 
                     <h3>
