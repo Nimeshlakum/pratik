@@ -4,3 +4,6 @@ from django.shortcuts import render
 
 def main(request):
     return render(request,'index.html')
+
+def product_page(request):
+    return render(request,'product.html')
